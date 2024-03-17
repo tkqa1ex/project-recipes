@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\project_Recipes\\Recipes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A35DB366-014D-4749-A5AB-C57E5346EF6D}|Recipes\\Recipes.csproj|d:\\project_recipes\\recipes\\recipes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A35DB366-014D-4749-A5AB-C57E5346EF6D}|Recipes\\Recipes.csproj|solutionrelative:recipes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35DB366-014D-4749-A5AB-C57E5346EF6D}|Recipes\\Recipes.csproj|D:\\project_Recipes\\Recipes\\recipes\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35DB366-014D-4749-A5AB-C57E5346EF6D}|Recipes\\Recipes.csproj|solutionrelative:recipes\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35DB366-014D-4749-A5AB-C57E5346EF6D}|Recipes\\Recipes.csproj|D:\\project_Recipes\\Recipes\\recipes\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35DB366-014D-4749-A5AB-C57E5346EF6D}|Recipes\\Recipes.csproj|solutionrelative:recipes\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35DB366-014D-4749-A5AB-C57E5346EF6D}|Recipes\\Recipes.csproj|D:\\project_Recipes\\Recipes\\recipes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35DB366-014D-4749-A5AB-C57E5346EF6D}|Recipes\\Recipes.csproj|solutionrelative:recipes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35DB366-014D-4749-A5AB-C57E5346EF6D}|Recipes\\Recipes.csproj|D:\\project_Recipes\\Recipes\\recipes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35DB366-014D-4749-A5AB-C57E5346EF6D}|Recipes\\Recipes.csproj|solutionrelative:recipes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\project_Recipes\\Recipes\\Recipes\\Form1.cs",
+              "RelativeDocumentMoniker": "Recipes\\Form1.cs",
+              "ToolTip": "D:\\project_Recipes\\Recipes\\Recipes\\Form1.cs",
+              "RelativeToolTip": "Recipes\\Form1.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA3wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T14:44:37.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\project_Recipes\\Recipes\\Recipes\\Form1.cs",
+              "RelativeDocumentMoniker": "Recipes\\Form1.cs",
+              "ToolTip": "D:\\project_Recipes\\Recipes\\Recipes\\Form1.cs [Design]",
+              "RelativeToolTip": "Recipes\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T08:35:54.883Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\project_Recipes\\Recipes\\Recipes\\Program.cs",
+              "RelativeDocumentMoniker": "Recipes\\Program.cs",
+              "ToolTip": "D:\\project_Recipes\\Recipes\\Recipes\\Program.cs",
+              "RelativeToolTip": "Recipes\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T08:32:20.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "D:\\project_Recipes\\Recipes\\Recipes\\Recipe.cs",
+              "RelativeDocumentMoniker": "Recipes\\Recipe.cs",
+              "ToolTip": "D:\\project_Recipes\\Recipes\\Recipes\\Recipe.cs",
+              "RelativeToolTip": "Recipes\\Recipe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T08:31:52.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "D:\\project_Recipes\\Recipes\\Recipes\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "Recipes\\MyDbContext.cs",
+              "ToolTip": "D:\\project_Recipes\\Recipes\\Recipes\\MyDbContext.cs",
+              "RelativeToolTip": "Recipes\\MyDbContext.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADgvxMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T08:27:33.288Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
