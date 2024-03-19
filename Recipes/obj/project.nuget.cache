@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LSvwDfDG09Iy+MtvjIwAnCRN8oG1grk5RsKDMj/BekqljxIBx6c2/BRlCUDm6Dxx8TQV1y9TvPfpQGUmge7FJg==",
+  "dgSpecHash": "fjvPJ2+ffFaYUSmTGmvY0p16nNQnDT93hja+RsKHIx0cmH+xlHUSqIX7FfxMlGWeve08XMXLi6yd5Czq+eHOqA==",
   "success": true,
-  "projectFilePath": "D:\\project_Recipes\\New folder\\Recipes\\Recipes\\Recipes.csproj",
+  "projectFilePath": "D:\\project_Recipes\\Recipes\\Recipes\\Recipes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",

@@ -133,6 +133,7 @@ namespace Recipes
 
         private void listBoxRecipes_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (listBoxRecipes.SelectedItem == null) return;
             var selectedRecipe = listBoxRecipes.SelectedItem.ToString();
             Recipe? recipe = db.Recipes.FirstOrDefault(x => x.RecipeName == selectedRecipe);
             txtRecipeName.Text = recipe.RecipeName;
