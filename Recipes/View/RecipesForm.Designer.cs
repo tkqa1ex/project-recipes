@@ -143,7 +143,7 @@
             Controls.Add(textBoxIngredients);
             Controls.Add(listBoxRecipes);
             Name = "RecipesForm";
-            Text = "RecipesForm";
+            Text = "Recipes App";
             Load += RecipesForm_Load;
             ResumeLayout(false);
             PerformLayout();

@@ -64,18 +64,10 @@ namespace Recipes.View
             }
 
 
-            Recipe newRecipe = new Recipe
-            {
-                RecipeName = recipeName,
-                Ingredients = ingredients,
-                Instructions = instructions
-            };
-
             // Clear the input fields to prepare for adding another recipe
             textBoxRecipeName.Text = "";
             textBoxIngredients.Text = "";
             textBoxInstructions.Text = "";
-
 
             recipesController.AddRecipe(recipe);
             RefreshRecipeList();

@@ -8,7 +8,7 @@ using Recipes.Model;
 
 namespace Recipes.Controller
 {
-    class RecipesController
+    public class RecipesController
     {
         private RecipesDbContext db;
 
