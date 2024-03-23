@@ -27,13 +27,10 @@ namespace Recipes.View
 
         private void RefreshRecipeList()
         {
-            // Clear the existing items in the ListBox
             listBoxRecipes.Items.Clear();
 
-            // Fetch the updated list of recipes from the database using Entity Framework
             var recipes = recipesController.GetRecipes().ToList();
 
-            // Add each recipe to the ListBox
             foreach (var recipe in recipes)
             {
                 listBoxRecipes.Items.Add(recipe.RecipeName);
@@ -48,10 +45,11 @@ namespace Recipes.View
         private void buttonAdd_Click(object sender, EventArgs e)
         {
             Recipe recipe = new Recipe();
-            // Retrieve information entered by the user from the input fields
+
             string recipeName = textBoxRecipeName.Text;
             string ingredients = textBoxIngredients.Text;
             string instructions = textBoxInstructions.Text;
+
             recipe.RecipeName = recipeName;
             recipe.Ingredients = ingredients;
             recipe.Instructions = instructions;
@@ -91,6 +89,7 @@ namespace Recipes.View
                 MessageBox.Show("Recipe not found!");
                 return;
             }
+
             // Update the selected recipe with the modified information
             recipe.RecipeName = textBoxRecipeName.Text;
             recipe.Ingredients = textBoxIngredients.Text;
@@ -104,7 +103,6 @@ namespace Recipes.View
 
         private void buttonDelete_Click(object sender, EventArgs e)
         {
-            // Check if an item is selected in the list (assuming you have a list to display recipes)
             if (listBoxRecipes.SelectedIndex == -1)
             {
                 MessageBox.Show("Please select a recipe to delete.");
