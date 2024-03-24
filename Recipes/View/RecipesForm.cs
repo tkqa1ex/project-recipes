@@ -93,10 +93,6 @@ namespace Recipes.View
             recipe.Ingredients = textBoxIngredients.Text;
             recipe.Instructions = textBoxInstructions.Text;
 
-            textBoxRecipeName.Text = "";
-            textBoxIngredients.Text = "";
-            textBoxInstructions.Text = "";
-
             recipesController.UpdateRecipe(recipe);
             RefreshRecipeList();
 
@@ -116,6 +112,10 @@ namespace Recipes.View
             Recipe? recipe = recipesController.SearchRecipeByName(selectedRecipeName);
 
             recipesController.RemoveRecipe(recipe);
+
+            textBoxRecipeName.Text = "";
+            textBoxIngredients.Text = "";
+            textBoxInstructions.Text = "";
 
             RefreshRecipeList();
 
