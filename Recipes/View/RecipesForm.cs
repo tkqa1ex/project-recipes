@@ -61,8 +61,6 @@ namespace Recipes.View
                 return;
             }
 
-
-            // Clear the input fields to prepare for adding another recipe
             textBoxRecipeName.Text = "";
             textBoxIngredients.Text = "";
             textBoxInstructions.Text = "";
@@ -94,6 +92,10 @@ namespace Recipes.View
             recipe.RecipeName = textBoxRecipeName.Text;
             recipe.Ingredients = textBoxIngredients.Text;
             recipe.Instructions = textBoxInstructions.Text;
+
+            textBoxRecipeName.Text = "";
+            textBoxIngredients.Text = "";
+            textBoxInstructions.Text = "";
 
             recipesController.UpdateRecipe(recipe);
             RefreshRecipeList();
